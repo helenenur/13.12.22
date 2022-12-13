@@ -1,0 +1,23 @@
+.example-1 {
+  width:  20px;
+  height:  20px;
+  background-color:  black;
+}
+
+
+@media screen and (min-width:200px) and (max-width:300px) {
+  .example-1{
+    width:  30px;
+    height:  30px;
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:400px) {
+  .example-1{
+    width:  40px;
+    height:  40px;
+    background-color: red;
+  }
+}
+
